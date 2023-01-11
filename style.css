@@ -31,6 +31,12 @@ p{
     border-radius: 10px;
 
 }
+.btn:hover{
+    background-color: transparent;
+    border:3px solid orangered;
+    color: black;
+    font-weight: bold;
+}
 
 
 /* -------------- */
@@ -82,7 +88,7 @@ p{
 .box-img{
     border-radius: 50%;
     border: 2px solid blue;
-   
+    margin-left: 25%;
 }
 
 /* --------- */
