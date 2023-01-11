@@ -12,6 +12,7 @@ p{
 .img{
     background: url(home.jpg) no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 580px;
 }
 .text{
@@ -38,8 +39,8 @@ p{
 }
 .money-section{
     display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
+   margin-left: 5%;
+   margin-right: 5%;
     font-size: 30px;
     justify-content: space-between;
 }
@@ -49,11 +50,10 @@ p{
     margin-bottom: 5%;
 }
 .money-section a:hover{
-    border: 1px solid palevioletred;
+    border: 2px solid palevioletred;
     color: palevioletred;
-    height: 30px;
-    width: 90px;
     align-items: center;
+    padding:20px 3px ;
 }
 .lavel-for{
     border: none;
@@ -82,6 +82,7 @@ p{
 .box-img{
     border-radius: 50%;
     border: 2px solid blue;
+   
 }
 
 /* --------- */
