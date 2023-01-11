@@ -1,0 +1,117 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+h1{ 
+    font-size: 75px;
+}
+p{
+    font-size: 18px;
+    margin-bottom: 6%;
+}
+.img{
+    background: url(home.jpg) no-repeat;
+    background-size: cover;
+    height: 580px;
+}
+.text{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-20%, -20%);
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(241, 64, 0);
+    padding: 15px 30px;
+    border-radius: 10px;
+
+}
+
+
+/* -------------- */
+.donate-money{
+    text-align: center;
+}
+.money-section{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 30px;
+    justify-content: space-between;
+}
+.money-section a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5%;
+}
+.money-section a:hover{
+    border: 1px solid palevioletred;
+    color: palevioletred;
+    height: 30px;
+    width: 90px;
+    align-items: center;
+}
+.lavel-for{
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+/* --------- */
+.plan{
+    text-align: center;
+}
+.felx-view-of-plan-content{
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.box{
+    width: 40%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px rgb(243 117 117);
+    background-color: rgb(215, 235, 215);
+}
+.box-img{
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+
+/* --------- */
+.get-flex{
+    display: flex;
+    margin: 10px 40px;
+}
+.get{
+    text-align: center;
+}
+.box-for-mail{
+    margin-left: 5%;
+    margin-right: 3%;
+    width: 40%;
+}
+.sub-box{
+    margin: 10px 10px;
+    padding: 10px 20px;
+    width: 400px;
+}
+.msg-box{
+    margin: 10px 10px;
+    padding: 40px 20px;
+    width: 400px; 
+}
+/* ------- */
+footer{
+    background: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    margin-top: 60px;
+}
