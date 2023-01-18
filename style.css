@@ -29,7 +29,7 @@ p{
     background-color: rgb(241, 64, 0);
     padding: 15px 30px;
     border-radius: 10px;
-
+    
 }
 .btn:hover{
     background-color: transparent;
@@ -121,4 +121,50 @@ footer{
     text-align: center;
     padding: 10px;
     margin-top: 60px;
+}
+
+/* --------------input-lavel------- */
+.page{
+    background-color:rgb(231, 235, 237) ;
+}
+span{
+    color: orange;
+}
+.section-for-2nd-page {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    display: flex;
+}
+.input-lv{
+    padding: 20px 20px;
+    margin-left: 20px;
+    width: 400px;
+    height: 3px;
+    margin-top: -100px;
+}
+.information-card {
+   background-color: rgb(255, 252, 252);
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 5px white;
+}
+#card-id{
+    padding: 80px 40px;
+    margin-left: 40px;
+}
+#pay-btn{
+   margin-left: 40%;
+}
+.visa-img{
+    margin-left: 30px;
+}
+.foot{
+    background: url(page-for-pay/payment__all-removebg-preview.png) no-repeat;
+    background-size: 750px;
+    height: 200px;
+    margin-bottom: 5%;
+    margin:3% 20%;
+    cursor: pointer;
 }
